@@ -1,0 +1,32 @@
+{
+	"name": "exo-algo-ts",
+	"version": "1.0.0",
+	"description": "## Prérequis",
+	"main": "index.js",
+	"directories": {
+		"test": "tests"
+	},
+	"scripts": {
+		"test": "jest",
+		"start": "ts-node-dev --respawn index.ts",
+		"format": "npx @biomejs/biome format --write './'",
+		"lint": "npx @biomejs/biome lint --write './'"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/Dolpheus89/Exo-Algo-TS.git"
+	},
+	"author": "",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/Dolpheus89/Exo-Algo-TS/issues"
+	},
+	"homepage": "https://github.com/Dolpheus89/Exo-Algo-TS#readme",
+	"devDependencies": {
+		"@types/jest": "^29.5.14",
+		"jest": "^29.7.0",
+		"ts-jest": "^29.2.5",
+		"ts-node-dev": "^2.0.0",
+		"typescript": "^5.6.3"
+	}
+}

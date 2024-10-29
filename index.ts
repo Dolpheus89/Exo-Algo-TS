@@ -8,7 +8,7 @@
 // Ajuste la fonction "multiply" qui prend deux paramètres (a et b) et retourne la somme multipliée des deux paramètres.
 // Exemple : a = 2, b = 3 => 2 * 3 = 6
 
-export const multiply = (a, b) => {};
+export const multiply = (a:number, b:number) => {};
 
 console.info("Exercice 1 :", multiply(2, 3));
 
